@@ -4,8 +4,8 @@ $json = file_get_contents('https://api.mozambiquehe.re/bridge?version=4&platform
 $data = json_decode($json);
 
 
-echo $data->global->name;
-echo $data->global->rank->rankName;
-echo $data->global->rank->rankDiv;
-echo $data->global->rank->rankScore;
+echo $data->global->name . '&nbsp';
+echo $data->global->rank->rankName . '&nbsp';
+echo $data->global->rank->rankDiv . '&nbsp';
+echo $data->global->rank->rankScore . '&nbsp';
 ?>
