@@ -32,7 +32,6 @@ $data = json_decode($json);
 
 $rdiv = intval($data->global->rank->rankDiv);
 
-echo $data->global->name . ' ';
 echo $data->global->rank->rankName . ' ';
 echo romanize($rdiv) . ' ';
 echo $data->global->rank->rankScore . 'ᴿᴾ';
