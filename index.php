@@ -5,7 +5,7 @@ $data = json_decode($json);
 
 
 echo $data->global->name;
-echo $data->global->rank->rankScore;
 echo $data->global->rank->rankName;
 echo $data->global->rank->rankDiv;
+echo $data->global->rank->rankScore;
 ?>
